@@ -10,7 +10,8 @@ contraseña: Elmer2024
 Tema aparte.
 
 Me he ausentado de clases desde el pasado 17 de abril del año en curso, a causa del accidente automovilistico que sufri, en el cual tuve interbencion quirurjica.
-Sin embargo, a partit de esa fecha solo se trabajo, con la presentacion de avances y presentacion final del proyecto de la clase, proyecto en el que participe activamente en todo su desarrollo
+Sin embargo, a partit de esa fecha solo se trabajo, con la presentacion de avances y presentacion final del proyecto de la clase, proyecto en el que participe activamente en todo su desarrollo.
+
 A causa de citas, para el proceso de limpieza de mi operacion mi vi obligado a ausentarme el dia jueves 2 de mayo. Sin embargo, ya habia explicado mi parte del proyecto y los demas integrantes
 estaban capacitados para la defenza general del proyecto y no solo la parte que desarroyaron de forma individual.
 
