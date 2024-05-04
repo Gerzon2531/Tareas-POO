@@ -1,4 +1,4 @@
-Algunas de las actividades fueron realizadas en perja, a consentmiento suyo.
+Algunas de las actividades fueron realizadas en pereja, a consentmiento suyo.
 
 Abjunto correo y contraseña utilizado en firebase utilizado para la autenticacion del loging y base de datos del proyecto final de la clase
 correo:     proyectopoo24@gmail.com
