@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Tareas</title>
+<style>
+    #taskList {
+        list-style-type: none;
+        padding: 0;
+    }
+    .task-item {
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+<h1>Lista de Tareas</h1>
+<input type="text" id="taskInput" placeholder="Nueva tarea">
+<button onclick="addTask()">Añadir tarea</button>
+<ul id="taskList"></ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Cargar tareas almacenadas en localStorage al cargar la página
+    loadTasks();
+});
+
+function addTask() {
+    var input = document.getElementById("taskInput");
+    var task = input.value.trim();
+    if (task !== "") {
+        var tasks = getTasks();
+        tasks.push(task);
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+        input.value = ""; // Limpiar el campo de entrada
+        loadTasks(); // Volver a cargar la lista de tareas
+    }
+}
+
+function loadTasks() {
+    var taskList = document.getElementById("taskList");
+    taskList.innerHTML = ""; // Limpiar la lista antes de cargar las tareas
+
+    var tasks = getTasks();
+    tasks.forEach(function(task) {
+        var li = document.createElement("li");
+        li.textContent = task;
+        li.className = "task-item";
+        taskList.appendChild(li);
+    });
+}
+
+function getTasks() {
+    var tasks = localStorage.getItem("tasks");
+    return tasks ? JSON.parse(tasks) : [];
+}
+</script>
+</body>
+</html>

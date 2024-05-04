@@ -1,0 +1,23 @@
+/* app.css */
+
+/* Cambia el color de fondo del contenedor principal */
+.container {
+  background-color: #343a40; /* Color oscuro */
+  color: #fff; /* Texto en color claro */
+}
+
+/* Cambia el color de fondo de los elementos card */
+.card {
+  background-color: #454d55; /* Color oscuro */
+}
+
+/* Cambia el color de fondo de los botones */
+.btn {
+  background-color: #6c757d; /* Color oscuro */
+  border-color: #6c757d; /* Borde en color oscuro */
+  color: #fff; /* Texto en color claro */
+}
+
+
+
+

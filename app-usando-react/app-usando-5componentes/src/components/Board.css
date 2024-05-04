@@ -1,0 +1,70 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card .card-inner .card-front,
+  .card .card-inner .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .card .card-inner .card-back {
+    transform: rotateY(180deg);
+  }
+  
+  .game-controls {
+    margin-top: 20px;
+  }
+  
+  .game-controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .game-controls button:hover {
+    background-color: #0056b3;
+  }
+  
