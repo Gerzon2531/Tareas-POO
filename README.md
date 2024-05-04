@@ -1,6 +1,6 @@
 Algunas de las actividades fueron realizadas en pereja, a consentmiento suyo.
 
-Abjunto correo y contraseña utilizado en firebase utilizado para la autenticacion del login y base de datos del proyecto final de la clase
+Abjunto correo y contraseña utilizado en firebase empleado para la autenticacion del login y base de datos del proyecto final de la clase
 
 correo:     proyectopoo24@gmail.com
 contraseña: Elmer2024
